@@ -495,9 +495,6 @@ padding: 40px;
     display: flex;
     flex-wrap: wrap;
   }
-  .navbar ul li{
-    font-size: 4px;
-  }
   .hero-image{
     display: flex;
   }
@@ -510,8 +507,11 @@ padding: 40px;
 }
 .secondcontainer{
   display: flex;
-  width:90%;
-  gap:40px;
+  width:100%;
+  gap:10px;
+}
+.thirdcontainer h1{
+  font-size: 20px;
 }
 .fourthcontainer{
   display: flex;
@@ -544,6 +544,133 @@ padding: 40px;
 }
 .fourthcolumn h1{
   font-size: 90%;
+}
+.tickicon{
+  width: 90%;
+  height: 10%;
+}
+.ninethcontainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.content{
+  width: 70%;
+  font-size: 40px;
+}
+.content h1{
+  font-size: 30px;
+}
+.firstform{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+.secondform{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+.thirdform{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+.tenth{
+  font-size: 30px;
+}
+.tenth h1{
+  font-size: 30px;
+}
+.onecontainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.twocontainer{
+  font-size: 40px;
+}
+.twocontainer h1{
+  font-size: 30px;
+}
+.fourcontainer{
+  font-size: 40px;
+}
+.fourcontainer h1{
+  font-size: 30px;
+}
+.fivecontainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.firstimage{
+  width: 100%;
+}
+.first{
+  padding-left: 10px;
+  padding-top: 500px;
+}
+.first h1{
+  font-size: 20px;
+}
+.secondimage{
+  width: 100%;
+}
+.second{
+  padding-left: 10px;
+  padding-top: 500px;
+}
+.second h1{
+  font-size: 20px;
+}
+.thirdimage{
+  width: 100%;
+}
+.third{
+  padding-left: 10px;
+  padding-top: 500px;
+}
+.third h1{
+  font-size: 20px;
+}
+.sixcontainer button{
+  width: 90%;
+}
+.sixcontainer h1{
+  font-size: 30px;
+}
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+.medias{
+  width: 10%;
+}
+.arrow{
+  margin-left: 300px;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 1px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #83818c; 
+  font-size: 10px;
+  font-weight: bold;
+}
+.firstcontainer h1{
+  font-size: 20px;
 }
 
 }
