@@ -2,7 +2,7 @@
 .parentcontainer{
     display: flex;
     flex-direction: column;
-    width: 98%;
+    width: 100%;
     margin: 0 auto;
     font-size: 110%;
 }
@@ -151,6 +151,7 @@
     text-align: center;
     padding: 20px;
     font-size: 120%;
+    padding: 50px;
 }
 .thirdcontainer a{
     color: #d8af0b;
@@ -251,6 +252,7 @@ width: 30%;
 .seventhcontainer{
   text-align: center;
   font-size: 110%;
+  padding: 50px;
 }
 .seventhcontainer a{
     color: #d8af0b;
@@ -361,6 +363,7 @@ width: 30%;
     text-align: center;
     justify-content: center;
     gap: 80px;
+    padding: 50px;
 }
 .onecontainer h4{
     color: #caa307;
@@ -374,6 +377,7 @@ width: 30%;
 .threecontainer{
     display: flex;
     justify-content: space-evenly;
+    padding: 50px;
 }
 #buttonone{
     margin-top: 10px;
@@ -390,6 +394,7 @@ width: 30%;
 }
 .fourcontainer{
  text-align: center;
+ padding: 50px;
 }
 .fourcontainer a{
     color: #caa307;
@@ -448,13 +453,13 @@ width: 30%;
     margin: 0 auto;
 }
 .first{
-    padding-top: 440px ;
+    padding-top: 400px ;
 }
 .second{
-    padding-top: 440px ;
+    padding-top: 400px ;
 }
 .third{
-    padding-top: 440px ;
+    padding-top: 400px ;
 }
 footer{
   background-color: black;
@@ -480,5 +485,65 @@ padding: 40px;
 .lastfooter p{
   text-align: center;
 }
+@media screen and (min-width: 324px) and (max-width: 768px) {
+  .parentcontainer{
+      display: flex;
+  }
+  .emailphone{
+    width: 30%;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navbar ul li{
+    font-size: 4px;
+  }
+  .hero-image{
+    display: flex;
+  }
+  .hero-image p,h1{
+    font-size: 7px;
+  }
+.firstcontainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.secondcontainer{
+  display: flex;
+  width:90%;
+  gap:40px;
+}
+.fourthcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.fifthcontainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.fifthcontainer h1{
+  font-size: 90%;
+}
+.sixthcontainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.thirdcolumn{
+  width: 130%;
+}
+.sixthcontainer .text{
+  position: absolute;
+  overflow: visible;
+  padding: 14px;
+  width: 20%;
+  margin-left: 8px;
+  font-size: 10px;
+  margin-top: 10px;
 
+}
+.fourthcolumn h1{
+  font-size: 90%;
+}
 
+}
