@@ -1,17 +1,12 @@
 
 .parentcontainer{
     display: flex;
-    border: 1px solid;
     flex-direction: column;
-    width: 95%;
+    width: 98%;
     margin: 0 auto;
     font-size: 110%;
 }
-.navigation{
- border: 1px solid;
-}
 .heroimage{
-    border: 1px solid;
     text-align: center;
 }
 .emailicon{
@@ -21,7 +16,6 @@
  .emailphone{
     display:flex;
     flex-direction: row;
-    border: 1px solid;
     width: 100%;
     justify-content: space-between;
  }
@@ -36,7 +30,6 @@
     flex-direction: row;
  }
  .phonenumber{
-    border: 1px solid;
     display: flex;
     flex-direction: row;
  }
@@ -125,8 +118,7 @@
     cursor: pointer;
   }
 .firstcontainer{
-    border: 1px solid;
-    display: flex;
+   display: flex;
     justify-content: space-evenly;
     padding: 30px;
     font-size: 120%;
@@ -150,14 +142,12 @@
     justify-content: space-around;
 }
 .secondcontainer{
-    border: 1px solid;
     display: flex;
     justify-content: space-between;
     padding: 20px;
     font-size: 120%;
 }
 .thirdcontainer{
-    border: 1px solid;
     text-align: center;
     padding: 20px;
     font-size: 120%;
@@ -166,7 +156,6 @@
     color: #d8af0b;
 }
 .fourthcontainer{
-    border: 1px solid;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -176,14 +165,12 @@
   color: #d8af0b;
 }
 .fifthcontainer{
-    border: 1px solid;
     display: flex;
     justify-content: space-evenly;
     padding: 30px;
     font-size: 120%;
 }
 .sixthcontainer{
-    border: 1px solid;
     display: flex;
     gap: 180px;
     padding: 70px;
@@ -204,7 +191,6 @@
   padding: 50px;
 }
 .secondicon{
-  border: 1px solid;
   background: rgb(25, 25, 197);
   padding: 10px;
   text-align: center;
@@ -263,7 +249,6 @@ width: 30%;
 
 }
 .seventhcontainer{
-  border: 1px solid;
   text-align: center;
   font-size: 110%;
 }
@@ -281,7 +266,6 @@ width: 30%;
 }
 .fourthcolumn{
   padding-top: 40px;
-  border: 1px solid;
   width: 50%;
   padding: 30px;
 }
@@ -299,7 +283,6 @@ width: 30%;
   gap: 20px;
 }
 .eightcontainer{
-    border: 1px solid;
     display: flex;
     justify-content: center;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(picture/image-video.jpg);
@@ -312,7 +295,6 @@ width: 30%;
     margin: 0 auto;
 }
 .ninethcontainer{
-    border: 1px solid;
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -327,7 +309,6 @@ width: 30%;
     color: white;
 }
 .tenth{
-    border: 1px solid;
     text-align: center;
 }
 .tenth a{
@@ -347,7 +328,7 @@ width: 30%;
     color: white;
 }
 .form input{
-    width: 150%;
+    width: 80%;
     padding: 20px;
 }
 .firstform{
@@ -366,8 +347,8 @@ width: 30%;
 #button{
     margin-top: 23px;
     text-align: center;
-    padding: 20px;
-    width: 180%;
+    padding: 10px;
+    width: 100%;
     background: #caa307;
     color: white;
     border: none;
@@ -376,7 +357,6 @@ width: 30%;
     width: 110%;
 }
 .onecontainer{
-    border: 1px solid;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -386,14 +366,12 @@ width: 30%;
     color: #caa307;
 }
 .twocontainer{
-    border: 1px solid;
     text-align: center;
 }
 .twocontainer a{
     color: #caa307;
 }
 .threecontainer{
-    border: 1px solid;
     display: flex;
     justify-content: space-evenly;
 }
@@ -411,14 +389,12 @@ width: 30%;
     padding: 10px;
 }
 .fourcontainer{
- border: 1px solid;
  text-align: center;
 }
 .fourcontainer a{
     color: #caa307;
 }
 .fivecontainer{
-    border: 1px solid;
     display: flex;
     justify-content: center;
     font-size: 100%;
@@ -429,7 +405,6 @@ width: 30%;
     padding-top: 30px;
 }
 .sixcontainer{
-    border: 1px solid;
     display: flex;
     background-color: #caa307;
     color: white;
@@ -481,4 +456,29 @@ width: 30%;
 .third{
     padding-top: 440px ;
 }
+footer{
+  background-color: black;
+  color: white;
+display: flex;
+justify-content: space-evenly;
+padding: 40px;
+}
+.medias{
+  color: white;
+ width: 1.5%;
+}
+.arrow{
+  color: white;
+  background-color: #caa307;
+  width: 4%;
+  margin-left: 1400px;
+}
+.lastfooter{
+  background-color: black;
+  color: white;
+}
+.lastfooter p{
+  text-align: center;
+}
+
 
