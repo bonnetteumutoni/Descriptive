@@ -126,13 +126,13 @@
 .firstcontainer a{
     color: #d8af0b;
 }
-.secondcolumn #icon{
+.image-icon #icon{
     position: absolute;
     overflow: visible;
     width: 30%;
     padding-top: 80px;
 }
-.secondcolumn img{
+.image-icon img{
     width: 100%;
     padding-top: 20px;
 }
@@ -233,19 +233,19 @@
   width: 13%;
   font-size: 100%;
 }
-.thirdcolumn{
+.image-text{
 background-color: blue;
 color: white;
 width: 30%;
 }
-.thirdcolumn p{
+.image-text p{
     padding-left: 20px;
 }
 .text-icon{
   display: flex;
   gap: 30px;
 }
-.thirdcolumn img{
+.image-text img{
   width: 90%;
 
 }
@@ -266,7 +266,7 @@ width: 30%;
   height: 30px;
   margin-top: 30px;
 }
-.fourthcolumn{
+.content-icon{
   padding-top: 40px;
   width: 50%;
   padding: 30px;
@@ -333,16 +333,16 @@ width: 30%;
     width: 80%;
     padding: 20px;
 }
-.firstform{
+.firstlabel{
     display: flex;
     gap: 300px;
 }
-.secondform{
+.secondlabel{
     display: flex;
     gap: 300px;
     
 }
-.thirdform{
+.thirdlabel{
     display: flex;
     gap: 300px;
 }
@@ -529,7 +529,7 @@ padding: 40px;
   display: flex;
   flex-wrap: wrap;
 }
-.thirdcolumn{
+.image-text{
   width: 130%;
 }
 .sixthcontainer .text{
@@ -542,7 +542,7 @@ padding: 40px;
   margin-top: 10px;
 
 }
-.fourthcolumn h1{
+.content-icon h1{
   font-size: 90%;
 }
 .tickicon{
@@ -560,17 +560,17 @@ padding: 40px;
 .content h1{
   font-size: 30px;
 }
-.firstform{
+.firstlabel{
   display: flex;
   flex-wrap: wrap;
   gap: 2px;
 }
-.secondform{
+.secondlabel{
   display: flex;
   flex-wrap: wrap;
   gap: 2px;
 }
-.thirdform{
+.thirdlabel{
   display: flex;
   flex-wrap: wrap;
   gap: 2px;
