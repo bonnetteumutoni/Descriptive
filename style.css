@@ -117,13 +117,13 @@
     border-radius: 5px;
     cursor: pointer;
   }
-.firstcontainer{
+.moving-text--images{
    display: flex;
     justify-content: space-evenly;
     padding: 30px;
     font-size: 120%;
 }
-.firstcontainer a{
+.moving-text--images a{
     color: #d8af0b;
 }
 .image-icon #icon{
@@ -141,43 +141,43 @@
     display: flex;
     justify-content: space-around;
 }
-.secondcontainer{
+.logo-ipsum{
     display: flex;
     justify-content: space-between;
     padding: 20px;
     font-size: 120%;
 }
-.thirdcontainer{
+.service-paragraph{
     text-align: center;
     padding: 20px;
     font-size: 120%;
     padding: 50px;
 }
-.thirdcontainer a{
+.service-paragraph a{
     color: #d8af0b;
 }
-.fourthcontainer{
+.services-provided{
     display: flex;
     justify-content: space-between;
     padding: 20px;
     font-size: 120%;
 }
-.fourthcontainer a{
+.services-provided a{
   color: #d8af0b;
 }
-.fifthcontainer{
+.container-text-video{
     display: flex;
     justify-content: space-evenly;
     padding: 30px;
     font-size: 120%;
 }
-.sixthcontainer{
+.box-image{
     display: flex;
     gap: 180px;
     padding: 70px;
     font-size: 120%;
 }
-.sixthcontainer a{
+.box-image a{
   color: #d8af0b;
 }
 .bi-box-seam{
@@ -249,12 +249,12 @@ width: 30%;
   width: 90%;
 
 }
-.seventhcontainer{
+.reaching-out-paragraph{
   text-align: center;
   font-size: 110%;
   padding: 50px;
 }
-.seventhcontainer a{
+.reaching-out-paragraph a{
     color: #d8af0b;
 }
 .tickicon{
@@ -284,7 +284,7 @@ width: 30%;
   display: flex;
   gap: 20px;
 }
-.eightcontainer{
+.hero-image-video{
     display: flex;
     justify-content: center;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(picture/image-video.jpg);
@@ -296,7 +296,7 @@ width: 30%;
     width: 90%;
     margin: 0 auto;
 }
-.ninethcontainer{
+.heading-form{
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -310,10 +310,10 @@ width: 30%;
 .content a{
     color: white;
 }
-.tenth{
+.link-heading{
     text-align: center;
 }
-.tenth a{
+.link-heading a{
     color: #caa307;
 }
 #video-icon{
@@ -358,23 +358,23 @@ width: 30%;
 .homesize{
     width: 110%;
 }
-.onecontainer{
+.feedback{
     display: flex;
     text-align: center;
     justify-content: center;
     gap: 80px;
     padding: 50px;
 }
-.onecontainer h4{
+.feedback h4{
     color: #caa307;
 }
-.twocontainer{
+.heading-updates{
     text-align: center;
 }
-.twocontainer a{
+.heading-updates a{
     color: #caa307;
 }
-.threecontainer{
+.email-subscribe{
     display: flex;
     justify-content: space-evenly;
     padding: 50px;
@@ -392,14 +392,14 @@ width: 30%;
     border-radius: 40px;
     padding: 10px;
 }
-.fourcontainer{
+.heading-articles{
  text-align: center;
  padding: 50px;
 }
-.fourcontainer a{
+.heading-articles a{
     color: #caa307;
 }
-.fivecontainer{
+.heroimages-text{
     display: flex;
     justify-content: center;
     font-size: 100%;
@@ -409,14 +409,14 @@ width: 30%;
     margin: 0 auto;
     padding-top: 30px;
 }
-.sixcontainer{
+.heading-button{
     display: flex;
     background-color: #caa307;
     color: white;
     justify-content: space-evenly;
     padding: 50px;
 }
-.sixcontainer button{
+.heading-button button{
     width: 15%;
     margin: 10px;
     background-color: black;
@@ -501,38 +501,38 @@ padding: 40px;
   .hero-image p,h1{
     font-size: 7px;
   }
-.firstcontainer{
+.moving-text--images{
   display: flex;
   flex-wrap: wrap;
 }
-.secondcontainer{
+.logo-ipsum{
   display: flex;
   width:100%;
   gap:10px;
 }
-.thirdcontainer h1{
+.service-paragraph h1{
   font-size: 20px;
 }
-.fourthcontainer{
+.services-provided{
   display: flex;
   flex-wrap: wrap;
   gap: 80px;
 }
-.fifthcontainer{
+.container-text-video{
   display: flex;
   flex-wrap: wrap;
 }
-.fifthcontainer h1{
+.container-text-video h1{
   font-size: 90%;
 }
-.sixthcontainer{
+.box-image{
   display: flex;
   flex-wrap: wrap;
 }
 .image-text{
   width: 130%;
 }
-.sixthcontainer .text{
+.box-image .text{
   position: absolute;
   overflow: visible;
   padding: 14px;
@@ -549,7 +549,7 @@ padding: 40px;
   width: 90%;
   height: 10%;
 }
-.ninethcontainer{
+.heading-form{
   display: flex;
   flex-wrap: wrap;
 }
@@ -575,29 +575,29 @@ padding: 40px;
   flex-wrap: wrap;
   gap: 2px;
 }
-.tenth{
+.link-heading{
   font-size: 30px;
 }
-.tenth h1{
+.link-heading h1{
   font-size: 30px;
 }
-.onecontainer{
+.feedback{
   display: flex;
   flex-wrap: wrap;
 }
-.twocontainer{
+.heading-updates{
   font-size: 40px;
 }
-.twocontainer h1{
+.heading-updates h1{
   font-size: 30px;
 }
-.fourcontainer{
+.heading-articles{
   font-size: 40px;
 }
-.fourcontainer h1{
+.heading-articles h1{
   font-size: 30px;
 }
-.fivecontainer{
+.heroimages-text{
   display: flex;
   flex-wrap: wrap;
 }
@@ -669,7 +669,7 @@ footer{
   font-size: 8px;
   font-weight: bold;
 }
-.firstcontainer h1{
+.moving-text--images h1{
   font-size: 20px;
 }
 
